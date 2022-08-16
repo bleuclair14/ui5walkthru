@@ -27,6 +27,6 @@ sap.ui.define([
 		Then.onTheAppPage.iShouldSeeTheHelloDialog();
 
 		// Cleanup
-		// Then.iTeardownMyApp();
+		Then.iTeardownMyApp();
 	});
 });
