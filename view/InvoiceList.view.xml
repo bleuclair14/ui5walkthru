@@ -9,8 +9,9 @@ controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
       items="{
          path : 'invoice>/Invoices',
          sorter : {
-            path : 'ProductName' 
-         }
+            path : 'ShipperName',
+            group : true
+        }
       }" >
       <headerToolbar>
          <Toolbar>
